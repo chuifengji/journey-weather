@@ -1,0 +1,6 @@
+interface:
+  display_name: "旅迹天气"
+  short_description: "按真实路线与每日行程匹配多模型天气，生成可编辑的地图式旅行天气页面"
+  default_prompt: "使用 $journey-weather，根据我的目的地、出发日期和要求，查证实际路线与开放信息，生成可编辑的多模型天气地图。"
+policy:
+  allow_implicit_invocation: true
