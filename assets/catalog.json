@@ -1,0 +1,1635 @@
+{
+  "version": 1,
+  "places": {
+    "kangding": {
+      "name": "康定",
+      "lon": 101.9546,
+      "lat": 30.0003,
+      "source": "https://www.openstreetmap.org/node/244080901",
+      "coordinateStatus": "mapped",
+      "checkedAt": "2026-09-21"
+    },
+    "laoyulin": {
+      "name": "老榆林村",
+      "lat": 29.9532985,
+      "lon": 101.9632315,
+      "source": "https://www.openstreetmap.org/node/5082987316",
+      "coordinateStatus": "mapped",
+      "checkedAt": "2026-09-21"
+    },
+    "gexi": {
+      "name": "格西草原",
+      "lat": 29.8808554,
+      "lon": 101.9189721,
+      "source": "https://www.openstreetmap.org/node/11302147469",
+      "coordinateStatus": "mapped",
+      "checkedAt": "2026-09-21"
+    },
+    "liangcha": {
+      "name": "两岔河",
+      "lat": 29.8425052,
+      "lon": 101.8597412,
+      "source": "https://www.openstreetmap.org/node/5127579442",
+      "coordinateStatus": "mapped",
+      "checkedAt": "2026-09-21"
+    },
+    "xiariwu": {
+      "name": "下日乌且营地",
+      "lat": 29.8175478,
+      "lon": 101.8512749,
+      "source": "https://www.openstreetmap.org/node/5132883513",
+      "coordinateStatus": "mapped",
+      "checkedAt": "2026-09-21"
+    },
+    "shangriwu": {
+      "name": "上日乌且营地",
+      "lat": 29.7924378,
+      "lon": 101.8363371,
+      "source": "https://www.openstreetmap.org/node/5132886336",
+      "coordinateStatus": "mapped",
+      "checkedAt": "2026-09-21"
+    },
+    "ridaman": {
+      "name": "日达曼垭口",
+      "lat": 29.777668,
+      "lon": 101.7996269,
+      "source": "https://www.openstreetmap.org/node/13310967176",
+      "coordinateStatus": "mapped",
+      "checkedAt": "2026-09-21",
+      "elevation": 5000.0
+    },
+    "yulongxi": {
+      "name": "玉龙西村",
+      "lat": 29.5893691,
+      "lon": 101.6810143,
+      "source": "https://www.openstreetmap.org/node/4957396321",
+      "coordinateStatus": "mapped",
+      "checkedAt": "2026-09-21"
+    },
+    "quanhua": {
+      "name": "泉华滩钙化池",
+      "lat": 29.5974325,
+      "lon": 101.6722491,
+      "source": "https://www.openstreetmap.org/node/9259001708",
+      "coordinateStatus": "mapped",
+      "checkedAt": "2026-09-21"
+    },
+    "zimei": {
+      "name": "子梅垭口",
+      "lat": 29.5178889,
+      "lon": 101.7210901,
+      "source": "https://www.openstreetmap.org/node/710090121",
+      "coordinateStatus": "mapped",
+      "checkedAt": "2026-09-21",
+      "elevation": 4570.0
+    },
+    "bangmu": {
+      "name": "帮木吉德村登山口",
+      "lon": 101.7061694,
+      "lat": 29.6258954,
+      "source": "https://www.openstreetmap.org/way/1427046410",
+      "coordinateStatus": "mapped",
+      "checkedAt": "2026-09-21"
+    },
+    "ticket": {
+      "name": "冷嘎措售票处",
+      "lon": 101.6994159,
+      "lat": 29.6381835,
+      "source": "https://www.openstreetmap.org/way/1471985796",
+      "coordinateStatus": "mapped",
+      "checkedAt": "2026-09-21"
+    },
+    "lake": {
+      "name": "冷嘎措",
+      "lon": 101.6848224,
+      "lat": 29.6511172,
+      "source": "https://www.openstreetmap.org/way/531486942",
+      "coordinateStatus": "mapped",
+      "checkedAt": "2026-09-21"
+    }
+  },
+  "routes": [
+    {
+      "id": "gongga-small-loop-lenggacuo",
+      "name": "贡嘎小环线＋冷嘎措",
+      "province": "四川",
+      "region": "甘孜 · 贡嘎山域",
+      "themes": [
+        "雪山徒步",
+        "高山湖泊",
+        "多日穿越"
+      ],
+      "variants": {
+        "5d-forward": {
+          "label": "5 天 4 晚 · 正穿",
+          "days": [
+            {
+              "title": "康定 → 老榆林 → 格西草原",
+              "shortTitle": "格西草原",
+              "stops": [
+                {
+                  "placeId": "kangding",
+                  "arrival": "09:00",
+                  "departure": "09:30",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "laoyulin",
+                  "arrival": "10:30",
+                  "departure": "11:00",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "gexi",
+                  "arrival": "14:00",
+                  "departure": "18:00",
+                  "mode": "mixed"
+                }
+              ],
+              "hikeHours": 3,
+              "hikeKm": 5,
+              "lodging": "格西草原营地",
+              "lodgingType": "camp",
+              "note": "康定为示例出发地；老榆林至步道起点需确认接驳。首晚露营位置与东侧区域开放状态均待确认。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            },
+            {
+              "title": "格西草原 → 两岔河 → 上日乌且",
+              "shortTitle": "上日乌且",
+              "stops": [
+                {
+                  "placeId": "gexi",
+                  "arrival": "07:30",
+                  "departure": "08:00",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "liangcha",
+                  "arrival": "11:00",
+                  "departure": "11:30",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "xiariwu",
+                  "arrival": "14:00",
+                  "departure": "14:30",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "shangriwu",
+                  "arrival": "16:30",
+                  "departure": "19:00",
+                  "mode": "walk"
+                }
+              ],
+              "hikeHours": 8,
+              "hikeKm": 17,
+              "lodging": "上日乌且营地",
+              "lodgingType": "camp",
+              "note": "当天是持续爬升的徒步日。到达时间是规划预算，需结合队伍速度、马帮和步道状况调整。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            },
+            {
+              "title": "上日乌且 → 日达曼垭口 → 玉龙西",
+              "shortTitle": "日达曼垭口",
+              "stops": [
+                {
+                  "placeId": "shangriwu",
+                  "arrival": "07:00",
+                  "departure": "07:30",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "ridaman",
+                  "arrival": "11:30",
+                  "departure": "12:00",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "18:00",
+                  "departure": "20:00",
+                  "mode": "mixed"
+                }
+              ],
+              "hikeHours": 8,
+              "hikeKm": 14,
+              "lodging": "玉龙西村客栈",
+              "lodgingType": "lodge",
+              "note": "采用日达曼垭口版本，不是日乌且垭口—莫溪沟的大环线。垭口西侧下撤后乘车到玉龙西，具体接车点待确认；未核实通行前不作为可执行穿越。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            },
+            {
+              "title": "玉龙西 → 帮木吉德村 → 冷嘎措",
+              "shortTitle": "冷嘎措",
+              "stops": [
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "08:00",
+                  "departure": "08:30",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "bangmu",
+                  "arrival": "09:30",
+                  "departure": "10:00",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "ticket",
+                  "arrival": "11:00",
+                  "departure": "11:15",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "lake",
+                  "arrival": "13:00",
+                  "departure": "14:30",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "bangmu",
+                  "arrival": "17:00",
+                  "departure": "17:15",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "18:00",
+                  "departure": "20:00",
+                  "mode": "drive"
+                }
+              ],
+              "hikeHours": 6,
+              "hikeKm": 8.9,
+              "lodging": "玉龙西村客栈",
+              "lodgingType": "lodge",
+              "note": "冷嘎措安排往返徒步与约 90 分钟停留；照片时间可在编辑器改动。14:30 为计划下撤时间，并非保证晴天的窗口。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            },
+            {
+              "title": "玉龙西村 → 康定",
+              "shortTitle": "玉龙西 · 康定",
+              "stops": [
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "09:00",
+                  "departure": "09:30",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "kangding",
+                  "arrival": "16:00",
+                  "departure": "17:00",
+                  "mode": "drive"
+                }
+              ],
+              "hikeHours": 0,
+              "hikeKm": 0,
+              "lodging": "行程结束",
+              "lodgingType": "none",
+              "note": "公路返程为接驳示意，不把两地点直线当车行路线。国庆交通可能改变抵达时刻，预留返程余量。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            }
+          ],
+          "assumptions": [
+            "示例采用 5 天 4 晚、康定集散；出发日从康定开始行程。",
+            "允许露营；格西草原和上日乌且安排营地，其余夜晚为玉龙西村客栈，均未预订。",
+            "采用日达曼垭口小环线版本，允许徒步与当地车辆接驳结合。",
+            "各日到达时间、徒步里程和用时为规划预算；由向导确认实际可通行路径、营地与接车点。"
+          ]
+        },
+        "6d-forward": {
+          "label": "6 天 5 晚 · 正穿",
+          "days": [
+            {
+              "title": "康定 → 老榆林 → 格西草原",
+              "shortTitle": "格西草原",
+              "stops": [
+                {
+                  "placeId": "kangding",
+                  "arrival": "09:00",
+                  "departure": "09:30",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "laoyulin",
+                  "arrival": "10:30",
+                  "departure": "11:00",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "gexi",
+                  "arrival": "14:00",
+                  "departure": "18:00",
+                  "mode": "mixed"
+                }
+              ],
+              "hikeHours": 3,
+              "hikeKm": 5,
+              "lodging": "格西草原营地",
+              "lodgingType": "camp",
+              "note": "康定为示例出发地；老榆林至步道起点需确认接驳。首晚露营位置与东侧区域开放状态均待确认。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            },
+            {
+              "title": "格西草原 → 两岔河 → 上日乌且",
+              "shortTitle": "上日乌且",
+              "stops": [
+                {
+                  "placeId": "gexi",
+                  "arrival": "07:30",
+                  "departure": "08:00",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "liangcha",
+                  "arrival": "11:00",
+                  "departure": "11:30",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "xiariwu",
+                  "arrival": "14:00",
+                  "departure": "14:30",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "shangriwu",
+                  "arrival": "16:30",
+                  "departure": "19:00",
+                  "mode": "walk"
+                }
+              ],
+              "hikeHours": 8,
+              "hikeKm": 17,
+              "lodging": "上日乌且营地",
+              "lodgingType": "camp",
+              "note": "当天是持续爬升的徒步日。到达时间是规划预算，需结合队伍速度、马帮和步道状况调整。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            },
+            {
+              "title": "上日乌且 → 日达曼垭口 → 玉龙西",
+              "shortTitle": "日达曼垭口",
+              "stops": [
+                {
+                  "placeId": "shangriwu",
+                  "arrival": "07:00",
+                  "departure": "07:30",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "ridaman",
+                  "arrival": "11:30",
+                  "departure": "12:00",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "18:00",
+                  "departure": "20:00",
+                  "mode": "mixed"
+                }
+              ],
+              "hikeHours": 8,
+              "hikeKm": 14,
+              "lodging": "玉龙西村客栈",
+              "lodgingType": "lodge",
+              "note": "采用日达曼垭口版本，不是日乌且垭口—莫溪沟的大环线。垭口西侧下撤后乘车到玉龙西，具体接车点待确认；未核实通行前不作为可执行穿越。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            },
+            {
+              "title": "玉龙西 → 帮木吉德村 → 冷嘎措",
+              "shortTitle": "冷嘎措",
+              "stops": [
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "08:00",
+                  "departure": "08:30",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "bangmu",
+                  "arrival": "09:30",
+                  "departure": "10:00",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "ticket",
+                  "arrival": "11:00",
+                  "departure": "11:15",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "lake",
+                  "arrival": "13:00",
+                  "departure": "14:30",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "bangmu",
+                  "arrival": "17:00",
+                  "departure": "17:15",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "18:00",
+                  "departure": "20:00",
+                  "mode": "drive"
+                }
+              ],
+              "hikeHours": 6,
+              "hikeKm": 8.9,
+              "lodging": "玉龙西村客栈",
+              "lodgingType": "lodge",
+              "note": "冷嘎措安排往返徒步与约 90 分钟停留；照片时间可在编辑器改动。14:30 为计划下撤时间，并非保证晴天的窗口。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            },
+            {
+              "title": "玉龙西 → 泉华滩 → 子梅垭口",
+              "shortTitle": "泉华滩 · 子梅",
+              "stops": [
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "09:00",
+                  "departure": "09:30",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "quanhua",
+                  "arrival": "10:30",
+                  "departure": "12:00",
+                  "mode": "mixed"
+                },
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "13:00",
+                  "departure": "14:00",
+                  "mode": "mixed"
+                },
+                {
+                  "placeId": "zimei",
+                  "arrival": "16:00",
+                  "departure": "17:30",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "19:00",
+                  "departure": "20:00",
+                  "mode": "drive"
+                }
+              ],
+              "hikeHours": 2,
+              "hikeKm": 3,
+              "lodging": "玉龙西村客栈",
+              "lodgingType": "lodge",
+              "note": "可选的西坡观景日，以当地车辆接驳为主；子梅垭口道路及车辆安排需出发前核实。可改为客栈休整。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            },
+            {
+              "title": "玉龙西村 → 康定",
+              "shortTitle": "玉龙西 · 康定",
+              "stops": [
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "09:00",
+                  "departure": "09:30",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "kangding",
+                  "arrival": "16:00",
+                  "departure": "17:00",
+                  "mode": "drive"
+                }
+              ],
+              "hikeHours": 0,
+              "hikeKm": 0,
+              "lodging": "行程结束",
+              "lodgingType": "none",
+              "note": "公路返程为接驳示意，不把两地点直线当车行路线。国庆交通可能改变抵达时刻，预留返程余量。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            }
+          ],
+          "assumptions": [
+            "示例采用 6 天 5 晚、康定集散；出发日从康定开始行程。",
+            "允许露营；格西草原和上日乌且安排营地，其余夜晚为玉龙西村客栈，均未预订。",
+            "采用日达曼垭口小环线版本，允许徒步与当地车辆接驳结合。",
+            "各日到达时间、徒步里程和用时为规划预算；由向导确认实际可通行路径、营地与接车点。"
+          ]
+        },
+        "7d-forward": {
+          "label": "7 天 6 晚 · 正穿",
+          "days": [
+            {
+              "title": "康定 → 老榆林 → 格西草原",
+              "shortTitle": "格西草原",
+              "stops": [
+                {
+                  "placeId": "kangding",
+                  "arrival": "09:00",
+                  "departure": "09:30",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "laoyulin",
+                  "arrival": "10:30",
+                  "departure": "11:00",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "gexi",
+                  "arrival": "14:00",
+                  "departure": "18:00",
+                  "mode": "mixed"
+                }
+              ],
+              "hikeHours": 3,
+              "hikeKm": 5,
+              "lodging": "格西草原营地",
+              "lodgingType": "camp",
+              "note": "康定为示例出发地；老榆林至步道起点需确认接驳。首晚露营位置与东侧区域开放状态均待确认。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            },
+            {
+              "title": "格西草原 → 两岔河 → 上日乌且",
+              "shortTitle": "上日乌且",
+              "stops": [
+                {
+                  "placeId": "gexi",
+                  "arrival": "07:30",
+                  "departure": "08:00",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "liangcha",
+                  "arrival": "11:00",
+                  "departure": "11:30",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "xiariwu",
+                  "arrival": "14:00",
+                  "departure": "14:30",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "shangriwu",
+                  "arrival": "16:30",
+                  "departure": "19:00",
+                  "mode": "walk"
+                }
+              ],
+              "hikeHours": 8,
+              "hikeKm": 17,
+              "lodging": "上日乌且营地",
+              "lodgingType": "camp",
+              "note": "当天是持续爬升的徒步日。到达时间是规划预算，需结合队伍速度、马帮和步道状况调整。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            },
+            {
+              "title": "上日乌且营地",
+              "shortTitle": "上日乌且休整",
+              "stops": [
+                {
+                  "placeId": "shangriwu",
+                  "arrival": "08:00",
+                  "departure": "19:00",
+                  "mode": "walk"
+                }
+              ],
+              "hikeHours": 0,
+              "hikeKm": 0,
+              "lodging": "上日乌且营地",
+              "lodgingType": "camp",
+              "note": "增加一日休整，营地活动范围及许可由当地确认；未额外加入处于未开放名单的支线。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            },
+            {
+              "title": "上日乌且 → 日达曼垭口 → 玉龙西",
+              "shortTitle": "日达曼垭口",
+              "stops": [
+                {
+                  "placeId": "shangriwu",
+                  "arrival": "07:00",
+                  "departure": "07:30",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "ridaman",
+                  "arrival": "11:30",
+                  "departure": "12:00",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "18:00",
+                  "departure": "20:00",
+                  "mode": "mixed"
+                }
+              ],
+              "hikeHours": 8,
+              "hikeKm": 14,
+              "lodging": "玉龙西村客栈",
+              "lodgingType": "lodge",
+              "note": "采用日达曼垭口版本，不是日乌且垭口—莫溪沟的大环线。垭口西侧下撤后乘车到玉龙西，具体接车点待确认；未核实通行前不作为可执行穿越。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            },
+            {
+              "title": "玉龙西 → 帮木吉德村 → 冷嘎措",
+              "shortTitle": "冷嘎措",
+              "stops": [
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "08:00",
+                  "departure": "08:30",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "bangmu",
+                  "arrival": "09:30",
+                  "departure": "10:00",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "ticket",
+                  "arrival": "11:00",
+                  "departure": "11:15",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "lake",
+                  "arrival": "13:00",
+                  "departure": "14:30",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "bangmu",
+                  "arrival": "17:00",
+                  "departure": "17:15",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "18:00",
+                  "departure": "20:00",
+                  "mode": "drive"
+                }
+              ],
+              "hikeHours": 6,
+              "hikeKm": 8.9,
+              "lodging": "玉龙西村客栈",
+              "lodgingType": "lodge",
+              "note": "冷嘎措安排往返徒步与约 90 分钟停留；照片时间可在编辑器改动。14:30 为计划下撤时间，并非保证晴天的窗口。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            },
+            {
+              "title": "玉龙西 → 泉华滩 → 子梅垭口",
+              "shortTitle": "泉华滩 · 子梅",
+              "stops": [
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "09:00",
+                  "departure": "09:30",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "quanhua",
+                  "arrival": "10:30",
+                  "departure": "12:00",
+                  "mode": "mixed"
+                },
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "13:00",
+                  "departure": "14:00",
+                  "mode": "mixed"
+                },
+                {
+                  "placeId": "zimei",
+                  "arrival": "16:00",
+                  "departure": "17:30",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "19:00",
+                  "departure": "20:00",
+                  "mode": "drive"
+                }
+              ],
+              "hikeHours": 2,
+              "hikeKm": 3,
+              "lodging": "玉龙西村客栈",
+              "lodgingType": "lodge",
+              "note": "可选的西坡观景日，以当地车辆接驳为主；子梅垭口道路及车辆安排需出发前核实。可改为客栈休整。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            },
+            {
+              "title": "玉龙西村 → 康定",
+              "shortTitle": "玉龙西 · 康定",
+              "stops": [
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "09:00",
+                  "departure": "09:30",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "kangding",
+                  "arrival": "16:00",
+                  "departure": "17:00",
+                  "mode": "drive"
+                }
+              ],
+              "hikeHours": 0,
+              "hikeKm": 0,
+              "lodging": "行程结束",
+              "lodgingType": "none",
+              "note": "公路返程为接驳示意，不把两地点直线当车行路线。国庆交通可能改变抵达时刻，预留返程余量。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            }
+          ],
+          "assumptions": [
+            "示例采用 7 天 6 晚、康定集散；出发日从康定开始行程。",
+            "允许露营；格西草原和上日乌且安排营地，其余夜晚为玉龙西村客栈，均未预订。",
+            "采用日达曼垭口小环线版本，允许徒步与当地车辆接驳结合。",
+            "各日到达时间、徒步里程和用时为规划预算；由向导确认实际可通行路径、营地与接车点。"
+          ]
+        },
+        "5d-reverse": {
+          "label": "5 天 4 晚 · 反穿",
+          "days": [
+            {
+              "title": "康定 → 玉龙西村",
+              "shortTitle": "康定 · 玉龙西",
+              "stops": [
+                {
+                  "placeId": "kangding",
+                  "arrival": "09:00",
+                  "departure": "09:30",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "16:00",
+                  "departure": "20:00",
+                  "mode": "drive"
+                }
+              ],
+              "hikeHours": 0,
+              "hikeKm": 0,
+              "lodging": "玉龙西村客栈",
+              "lodgingType": "lodge",
+              "note": "反穿从西坡进山，康定至玉龙西为车辆接驳示意。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            },
+            {
+              "title": "玉龙西 → 帮木吉德村 → 冷嘎措",
+              "shortTitle": "冷嘎措",
+              "stops": [
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "08:00",
+                  "departure": "08:30",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "bangmu",
+                  "arrival": "09:30",
+                  "departure": "10:00",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "ticket",
+                  "arrival": "11:00",
+                  "departure": "11:15",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "lake",
+                  "arrival": "13:00",
+                  "departure": "14:30",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "bangmu",
+                  "arrival": "17:00",
+                  "departure": "17:15",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "18:00",
+                  "departure": "20:00",
+                  "mode": "drive"
+                }
+              ],
+              "hikeHours": 6,
+              "hikeKm": 8.9,
+              "lodging": "玉龙西村客栈",
+              "lodgingType": "lodge",
+              "note": "冷嘎措安排往返徒步与约 90 分钟停留；照片时间可在编辑器改动。14:30 为计划下撤时间，并非保证晴天的窗口。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            },
+            {
+              "title": "玉龙西 → 日达曼垭口 → 上日乌且",
+              "shortTitle": "日达曼反穿",
+              "stops": [
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "06:00",
+                  "departure": "06:30",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "ridaman",
+                  "arrival": "12:00",
+                  "departure": "12:30",
+                  "mode": "mixed"
+                },
+                {
+                  "placeId": "shangriwu",
+                  "arrival": "17:00",
+                  "departure": "19:00",
+                  "mode": "walk"
+                }
+              ],
+              "hikeHours": 9,
+              "hikeKm": 14,
+              "lodging": "上日乌且营地",
+              "lodgingType": "camp",
+              "note": "反穿的垭口日按更长的爬升时间预算；接驳点、通行和营地许可仍待确认。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            },
+            {
+              "title": "上日乌且 → 两岔河 → 格西草原",
+              "shortTitle": "格西草原",
+              "stops": [
+                {
+                  "placeId": "shangriwu",
+                  "arrival": "08:00",
+                  "departure": "08:30",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "xiariwu",
+                  "arrival": "10:00",
+                  "departure": "10:15",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "liangcha",
+                  "arrival": "12:30",
+                  "departure": "13:00",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "gexi",
+                  "arrival": "16:30",
+                  "departure": "19:00",
+                  "mode": "walk"
+                }
+              ],
+              "hikeHours": 7.5,
+              "hikeKm": 17,
+              "lodging": "格西草原营地",
+              "lodgingType": "camp",
+              "note": "反向下行仍需按队伍速度调整，不以正穿时间直接倒放。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            },
+            {
+              "title": "格西草原 → 老榆林 → 康定",
+              "shortTitle": "老榆林 · 康定",
+              "stops": [
+                {
+                  "placeId": "gexi",
+                  "arrival": "09:00",
+                  "departure": "09:30",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "laoyulin",
+                  "arrival": "13:00",
+                  "departure": "14:00",
+                  "mode": "mixed"
+                },
+                {
+                  "placeId": "kangding",
+                  "arrival": "15:00",
+                  "departure": "17:00",
+                  "mode": "drive"
+                }
+              ],
+              "hikeHours": 3,
+              "hikeKm": 5,
+              "lodging": "行程结束",
+              "lodgingType": "none",
+              "note": "步道起点至老榆林、康定为接驳，具体上下车点由当地安排。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            }
+          ],
+          "assumptions": [
+            "示例采用 5 天 4 晚、康定集散，从玉龙西侧反穿。",
+            "允许露营；格西草原和上日乌且安排营地，其余夜晚为玉龙西村客栈，均未预订。",
+            "采用日达曼垭口小环线版本，允许徒步与当地车辆接驳结合。",
+            "各日到达时间、徒步里程和用时为规划预算；由向导确认实际可通行路径、营地与接车点。"
+          ]
+        },
+        "6d-reverse": {
+          "label": "6 天 5 晚 · 反穿",
+          "days": [
+            {
+              "title": "康定 → 玉龙西村",
+              "shortTitle": "康定 · 玉龙西",
+              "stops": [
+                {
+                  "placeId": "kangding",
+                  "arrival": "09:00",
+                  "departure": "09:30",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "16:00",
+                  "departure": "20:00",
+                  "mode": "drive"
+                }
+              ],
+              "hikeHours": 0,
+              "hikeKm": 0,
+              "lodging": "玉龙西村客栈",
+              "lodgingType": "lodge",
+              "note": "反穿从西坡进山，康定至玉龙西为车辆接驳示意。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            },
+            {
+              "title": "玉龙西 → 泉华滩 → 子梅垭口",
+              "shortTitle": "泉华滩 · 子梅",
+              "stops": [
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "09:00",
+                  "departure": "09:30",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "quanhua",
+                  "arrival": "10:30",
+                  "departure": "12:00",
+                  "mode": "mixed"
+                },
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "13:00",
+                  "departure": "14:00",
+                  "mode": "mixed"
+                },
+                {
+                  "placeId": "zimei",
+                  "arrival": "16:00",
+                  "departure": "17:30",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "19:00",
+                  "departure": "20:00",
+                  "mode": "drive"
+                }
+              ],
+              "hikeHours": 2,
+              "hikeKm": 3,
+              "lodging": "玉龙西村客栈",
+              "lodgingType": "lodge",
+              "note": "可选的西坡观景日，以当地车辆接驳为主；子梅垭口道路及车辆安排需出发前核实。可改为客栈休整。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            },
+            {
+              "title": "玉龙西 → 帮木吉德村 → 冷嘎措",
+              "shortTitle": "冷嘎措",
+              "stops": [
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "08:00",
+                  "departure": "08:30",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "bangmu",
+                  "arrival": "09:30",
+                  "departure": "10:00",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "ticket",
+                  "arrival": "11:00",
+                  "departure": "11:15",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "lake",
+                  "arrival": "13:00",
+                  "departure": "14:30",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "bangmu",
+                  "arrival": "17:00",
+                  "departure": "17:15",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "18:00",
+                  "departure": "20:00",
+                  "mode": "drive"
+                }
+              ],
+              "hikeHours": 6,
+              "hikeKm": 8.9,
+              "lodging": "玉龙西村客栈",
+              "lodgingType": "lodge",
+              "note": "冷嘎措安排往返徒步与约 90 分钟停留；照片时间可在编辑器改动。14:30 为计划下撤时间，并非保证晴天的窗口。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            },
+            {
+              "title": "玉龙西 → 日达曼垭口 → 上日乌且",
+              "shortTitle": "日达曼反穿",
+              "stops": [
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "06:00",
+                  "departure": "06:30",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "ridaman",
+                  "arrival": "12:00",
+                  "departure": "12:30",
+                  "mode": "mixed"
+                },
+                {
+                  "placeId": "shangriwu",
+                  "arrival": "17:00",
+                  "departure": "19:00",
+                  "mode": "walk"
+                }
+              ],
+              "hikeHours": 9,
+              "hikeKm": 14,
+              "lodging": "上日乌且营地",
+              "lodgingType": "camp",
+              "note": "反穿的垭口日按更长的爬升时间预算；接驳点、通行和营地许可仍待确认。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            },
+            {
+              "title": "上日乌且 → 两岔河 → 格西草原",
+              "shortTitle": "格西草原",
+              "stops": [
+                {
+                  "placeId": "shangriwu",
+                  "arrival": "08:00",
+                  "departure": "08:30",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "xiariwu",
+                  "arrival": "10:00",
+                  "departure": "10:15",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "liangcha",
+                  "arrival": "12:30",
+                  "departure": "13:00",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "gexi",
+                  "arrival": "16:30",
+                  "departure": "19:00",
+                  "mode": "walk"
+                }
+              ],
+              "hikeHours": 7.5,
+              "hikeKm": 17,
+              "lodging": "格西草原营地",
+              "lodgingType": "camp",
+              "note": "反向下行仍需按队伍速度调整，不以正穿时间直接倒放。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            },
+            {
+              "title": "格西草原 → 老榆林 → 康定",
+              "shortTitle": "老榆林 · 康定",
+              "stops": [
+                {
+                  "placeId": "gexi",
+                  "arrival": "09:00",
+                  "departure": "09:30",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "laoyulin",
+                  "arrival": "13:00",
+                  "departure": "14:00",
+                  "mode": "mixed"
+                },
+                {
+                  "placeId": "kangding",
+                  "arrival": "15:00",
+                  "departure": "17:00",
+                  "mode": "drive"
+                }
+              ],
+              "hikeHours": 3,
+              "hikeKm": 5,
+              "lodging": "行程结束",
+              "lodgingType": "none",
+              "note": "步道起点至老榆林、康定为接驳，具体上下车点由当地安排。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            }
+          ],
+          "assumptions": [
+            "示例采用 6 天 5 晚、康定集散，从玉龙西侧反穿。",
+            "允许露营；格西草原和上日乌且安排营地，其余夜晚为玉龙西村客栈，均未预订。",
+            "采用日达曼垭口小环线版本，允许徒步与当地车辆接驳结合。",
+            "各日到达时间、徒步里程和用时为规划预算；由向导确认实际可通行路径、营地与接车点。"
+          ]
+        },
+        "7d-reverse": {
+          "label": "7 天 6 晚 · 反穿",
+          "days": [
+            {
+              "title": "康定 → 玉龙西村",
+              "shortTitle": "康定 · 玉龙西",
+              "stops": [
+                {
+                  "placeId": "kangding",
+                  "arrival": "09:00",
+                  "departure": "09:30",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "16:00",
+                  "departure": "20:00",
+                  "mode": "drive"
+                }
+              ],
+              "hikeHours": 0,
+              "hikeKm": 0,
+              "lodging": "玉龙西村客栈",
+              "lodgingType": "lodge",
+              "note": "反穿从西坡进山，康定至玉龙西为车辆接驳示意。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            },
+            {
+              "title": "玉龙西 → 泉华滩 → 子梅垭口",
+              "shortTitle": "泉华滩 · 子梅",
+              "stops": [
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "09:00",
+                  "departure": "09:30",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "quanhua",
+                  "arrival": "10:30",
+                  "departure": "12:00",
+                  "mode": "mixed"
+                },
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "13:00",
+                  "departure": "14:00",
+                  "mode": "mixed"
+                },
+                {
+                  "placeId": "zimei",
+                  "arrival": "16:00",
+                  "departure": "17:30",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "19:00",
+                  "departure": "20:00",
+                  "mode": "drive"
+                }
+              ],
+              "hikeHours": 2,
+              "hikeKm": 3,
+              "lodging": "玉龙西村客栈",
+              "lodgingType": "lodge",
+              "note": "可选的西坡观景日，以当地车辆接驳为主；子梅垭口道路及车辆安排需出发前核实。可改为客栈休整。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            },
+            {
+              "title": "玉龙西 → 帮木吉德村 → 冷嘎措",
+              "shortTitle": "冷嘎措",
+              "stops": [
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "08:00",
+                  "departure": "08:30",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "bangmu",
+                  "arrival": "09:30",
+                  "departure": "10:00",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "ticket",
+                  "arrival": "11:00",
+                  "departure": "11:15",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "lake",
+                  "arrival": "13:00",
+                  "departure": "14:30",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "bangmu",
+                  "arrival": "17:00",
+                  "departure": "17:15",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "18:00",
+                  "departure": "20:00",
+                  "mode": "drive"
+                }
+              ],
+              "hikeHours": 6,
+              "hikeKm": 8.9,
+              "lodging": "玉龙西村客栈",
+              "lodgingType": "lodge",
+              "note": "冷嘎措安排往返徒步与约 90 分钟停留；照片时间可在编辑器改动。14:30 为计划下撤时间，并非保证晴天的窗口。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            },
+            {
+              "title": "玉龙西 → 日达曼垭口 → 上日乌且",
+              "shortTitle": "日达曼反穿",
+              "stops": [
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "06:00",
+                  "departure": "06:30",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "ridaman",
+                  "arrival": "12:00",
+                  "departure": "12:30",
+                  "mode": "mixed"
+                },
+                {
+                  "placeId": "shangriwu",
+                  "arrival": "17:00",
+                  "departure": "19:00",
+                  "mode": "walk"
+                }
+              ],
+              "hikeHours": 9,
+              "hikeKm": 14,
+              "lodging": "上日乌且营地",
+              "lodgingType": "camp",
+              "note": "反穿的垭口日按更长的爬升时间预算；接驳点、通行和营地许可仍待确认。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            },
+            {
+              "title": "上日乌且营地",
+              "shortTitle": "上日乌且休整",
+              "stops": [
+                {
+                  "placeId": "shangriwu",
+                  "arrival": "08:00",
+                  "departure": "19:00",
+                  "mode": "walk"
+                }
+              ],
+              "hikeHours": 0,
+              "hikeKm": 0,
+              "lodging": "上日乌且营地",
+              "lodgingType": "camp",
+              "note": "增加一日休整，营地活动范围及许可由当地确认；未额外加入处于未开放名单的支线。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            },
+            {
+              "title": "上日乌且 → 两岔河 → 格西草原",
+              "shortTitle": "格西草原",
+              "stops": [
+                {
+                  "placeId": "shangriwu",
+                  "arrival": "08:00",
+                  "departure": "08:30",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "xiariwu",
+                  "arrival": "10:00",
+                  "departure": "10:15",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "liangcha",
+                  "arrival": "12:30",
+                  "departure": "13:00",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "gexi",
+                  "arrival": "16:30",
+                  "departure": "19:00",
+                  "mode": "walk"
+                }
+              ],
+              "hikeHours": 7.5,
+              "hikeKm": 17,
+              "lodging": "格西草原营地",
+              "lodgingType": "camp",
+              "note": "反向下行仍需按队伍速度调整，不以正穿时间直接倒放。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            },
+            {
+              "title": "格西草原 → 老榆林 → 康定",
+              "shortTitle": "老榆林 · 康定",
+              "stops": [
+                {
+                  "placeId": "gexi",
+                  "arrival": "09:00",
+                  "departure": "09:30",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "laoyulin",
+                  "arrival": "13:00",
+                  "departure": "14:00",
+                  "mode": "mixed"
+                },
+                {
+                  "placeId": "kangding",
+                  "arrival": "15:00",
+                  "departure": "17:00",
+                  "mode": "drive"
+                }
+              ],
+              "hikeHours": 3,
+              "hikeKm": 5,
+              "lodging": "行程结束",
+              "lodgingType": "none",
+              "note": "步道起点至老榆林、康定为接驳，具体上下车点由当地安排。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            }
+          ],
+          "assumptions": [
+            "示例采用 7 天 6 晚、康定集散，从玉龙西侧反穿。",
+            "允许露营；格西草原和上日乌且安排营地，其余夜晚为玉龙西村客栈，均未预订。",
+            "采用日达曼垭口小环线版本，允许徒步与当地车辆接驳结合。",
+            "各日到达时间、徒步里程和用时为规划预算；由向导确认实际可通行路径、营地与接车点。"
+          ]
+        }
+      },
+      "sources": [
+        {
+          "title": "康定市：老榆林至玉龙西徒步线路背景",
+          "url": "https://www.kangding.gov.cn/lt_gzjh/article/585685",
+          "kind": "official",
+          "checkedAt": "2026-09-21"
+        },
+        {
+          "title": "2026 贡嘎环线行程节点参考（运营方）",
+          "url": "https://xzyhwtb.360jlb.cn/event?id=890677&mid=73639",
+          "kind": "operator",
+          "checkedAt": "2026-09-21"
+        },
+        {
+          "title": "康定市未开放区域户外活动公告（2025-11）",
+          "url": "https://www.kangding.gov.cn/jczwgkzwdt/article/678900",
+          "kind": "official-access",
+          "checkedAt": "2026-09-21"
+        },
+        {
+          "title": "贡嘎山镇 2026 五一冷嘎措与子梅接待记录",
+          "url": "https://www.kangding.gov.cn/xzdt/article/711502",
+          "kind": "official",
+          "checkedAt": "2026-09-21"
+        },
+        {
+          "title": "OpenStreetMap 地点与路径，ODbL",
+          "url": "https://www.openstreetmap.org/copyright",
+          "kind": "map",
+          "checkedAt": "2026-09-21"
+        }
+      ],
+      "access": {
+        "status": "unconfirmed",
+        "checkedAt": "2026-09-21",
+        "note": "找到冷嘎措、子梅垭口 2026 年接待记录；但 2025 年未开放区域公告要求另行公告恢复，未查到针对本次东侧营地—日达曼段的明确解除文件。此页用于路线与天气规划，东侧穿越、营地许可和接驳仍须当地确认。",
+        "sourceUrl": "https://www.kangding.gov.cn/jczwgkzwdt/article/678900"
+      }
+    },
+    {
+      "id": "lenggacuo",
+      "name": "冷嘎措往返",
+      "province": "四川",
+      "region": "甘孜 · 贡嘎山域",
+      "themes": [
+        "高山湖泊",
+        "徒步摄影"
+      ],
+      "variants": {
+        "1d-forward": {
+          "label": "1 日往返",
+          "days": [
+            {
+              "title": "帮木吉德村 → 冷嘎措 → 帮木吉德村",
+              "shortTitle": "冷嘎措",
+              "stops": [
+                {
+                  "placeId": "bangmu",
+                  "arrival": "09:30",
+                  "departure": "10:00",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "ticket",
+                  "arrival": "11:00",
+                  "departure": "11:15",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "lake",
+                  "arrival": "13:00",
+                  "departure": "14:30",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "bangmu",
+                  "arrival": "17:00",
+                  "departure": "17:15",
+                  "mode": "walk"
+                }
+              ],
+              "hikeHours": 6,
+              "hikeKm": 8.9,
+              "lodging": "当日返回",
+              "lodgingType": "none",
+              "note": "冷嘎措安排往返徒步与约 90 分钟停留；照片时间可在编辑器改动。14:30 为计划下撤时间，并非保证晴天的窗口。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            }
+          ],
+          "assumptions": [
+            "从帮木吉德村登山口出发，返程至同一地点；上下山用时为规划预算。"
+          ]
+        },
+        "2d-forward": {
+          "label": "2 天 1 晚 · 玉龙西住宿",
+          "days": [
+            {
+              "title": "玉龙西 → 泉华滩 → 子梅垭口",
+              "shortTitle": "泉华滩 · 子梅",
+              "stops": [
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "09:00",
+                  "departure": "09:30",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "quanhua",
+                  "arrival": "10:30",
+                  "departure": "12:00",
+                  "mode": "mixed"
+                },
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "13:00",
+                  "departure": "14:00",
+                  "mode": "mixed"
+                },
+                {
+                  "placeId": "zimei",
+                  "arrival": "16:00",
+                  "departure": "17:30",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "19:00",
+                  "departure": "20:00",
+                  "mode": "drive"
+                }
+              ],
+              "hikeHours": 2,
+              "hikeKm": 3,
+              "lodging": "玉龙西村客栈",
+              "lodgingType": "lodge",
+              "note": "可选的西坡观景日，以当地车辆接驳为主；子梅垭口道路及车辆安排需出发前核实。可改为客栈休整。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            },
+            {
+              "title": "玉龙西 → 帮木吉德村 → 冷嘎措",
+              "shortTitle": "冷嘎措",
+              "stops": [
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "08:00",
+                  "departure": "08:30",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "bangmu",
+                  "arrival": "09:30",
+                  "departure": "10:00",
+                  "mode": "drive"
+                },
+                {
+                  "placeId": "ticket",
+                  "arrival": "11:00",
+                  "departure": "11:15",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "lake",
+                  "arrival": "13:00",
+                  "departure": "14:30",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "bangmu",
+                  "arrival": "17:00",
+                  "departure": "17:15",
+                  "mode": "walk"
+                },
+                {
+                  "placeId": "yulongxi",
+                  "arrival": "18:00",
+                  "departure": "20:00",
+                  "mode": "drive"
+                }
+              ],
+              "hikeHours": 6,
+              "hikeKm": 8.9,
+              "lodging": "行程结束",
+              "lodgingType": "none",
+              "note": "冷嘎措安排往返徒步与约 90 分钟停留；照片时间可在编辑器改动。14:30 为计划下撤时间，并非保证晴天的窗口。",
+              "budgetBasis": "规划预算，待向导核对；不是模型自动导航估时"
+            }
+          ],
+          "assumptions": [
+            "首日从玉龙西村开始，以当地车辆衔接泉华滩和子梅垭口，第二日冷嘎措往返。"
+          ]
+        }
+      },
+      "sources": [
+        {
+          "title": "康定市：老榆林至玉龙西徒步线路背景",
+          "url": "https://www.kangding.gov.cn/lt_gzjh/article/585685",
+          "kind": "official",
+          "checkedAt": "2026-09-21"
+        },
+        {
+          "title": "2026 贡嘎环线行程节点参考（运营方）",
+          "url": "https://xzyhwtb.360jlb.cn/event?id=890677&mid=73639",
+          "kind": "operator",
+          "checkedAt": "2026-09-21"
+        },
+        {
+          "title": "康定市未开放区域户外活动公告（2025-11）",
+          "url": "https://www.kangding.gov.cn/jczwgkzwdt/article/678900",
+          "kind": "official-access",
+          "checkedAt": "2026-09-21"
+        },
+        {
+          "title": "贡嘎山镇 2026 五一冷嘎措与子梅接待记录",
+          "url": "https://www.kangding.gov.cn/xzdt/article/711502",
+          "kind": "official",
+          "checkedAt": "2026-09-21"
+        },
+        {
+          "title": "OpenStreetMap 地点与路径，ODbL",
+          "url": "https://www.openstreetmap.org/copyright",
+          "kind": "map",
+          "checkedAt": "2026-09-21"
+        }
+      ],
+      "access": {
+        "status": "check-before-departure",
+        "checkedAt": "2026-09-21",
+        "note": "2026 年五一有官方游客接待记录，不代表所选出发日一定开放，仍需核实当天管理与接驳。",
+        "sourceUrl": "https://www.kangding.gov.cn/xzdt/article/711502"
+      }
+    }
+  ],
+  "catalogNote": "经核对的种子目录，可由 Skill 查证后扩展；不是全国完整路线数据库。"
+}
